@@ -1,12 +1,58 @@
-# React + Vite
+# Edusity – Educational Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Edusity is a responsive educational course listing platform built using **React.js**. It showcases a modern UI with reusable components to display a variety of courses in a clean and structured layout. This project helped strengthen my frontend development skills using React and CSS.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
 
-## Expanding the ESLint configuration
+[Click here to view the live project](https://educationbypalak.netlify.app)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack
+
+- **React.js** – Component-based UI
+- **JavaScript** – Functional logic and interactivity
+- **HTML & CSS** – Layout and styling
+- **Netlify** – Deployment
+
+---
+
+## Features
+
+- Course listing with structured layout  
+- Fully responsive design  
+- Reusable components  
+- Deployed and publicly accessible  
+- Clean and minimal user interface  
+
+---
+
+## Folder Structure
+
+/edusity
+│
+├── /public
+│ └── index.html
+│
+├── /src
+│ ├── /components
+│ ├── App.js
+│ ├── index.js
+│ └── styles.css
+│
+└── README.md
+
+
+---
+
+## Setup Instructions
+
+```bash
+git clone https://github.com/palakchauhan19/Edusity.git
+cd Edusity
+npm install
+npm start
+
+//   The app will run on http://localhost:3000.
